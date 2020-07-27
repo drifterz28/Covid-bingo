@@ -1,0 +1,13 @@
+{
+  "name": "covid-bingo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "static -p 1234",
+    "min:js": "yarn uglifyjs -p bare_returns ./index.js -o ./index.min.js",
+    "min:css": "yarn uglifycss ./styles.css --output styles.min.css",
+    "build": "yarn min:js && yarn min:css",
+    "lint": "yarn eslint ./index.js"
+  }
+}

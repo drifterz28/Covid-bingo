@@ -1,0 +1,46 @@
+#app {
+  width: 80%;
+  margin: 20px auto;
+  background: ccc;
+  color: black;
+}
+
+.board {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.header {
+  display: flex;
+  justify-content: stretch;
+}
+
+.header > div {
+  flex-grow: 1;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 40px;
+}
+
+.board {
+  display: grid;
+  text-align: center;
+  height: 90vw;
+  align-items: stretch;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(5, 20%);
+}
+
+.board > div {
+  padding: 10px;
+  outline: 1px solid black;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.checked.checked {
+  outline: 1px solid red;
+  background: pink;
+}
