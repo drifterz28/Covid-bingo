@@ -28,10 +28,12 @@ const CovidBingo = [
   "Damn Karen",
   "Complain about talking with a mask on"
 ];
+
 const defaultUserData = {
   array: CovidBingo,
   selected: []
-}
+};
+
 let loadUserData = localStorage.user;
 const activeUser = !!loadUserData;
 let index = 0;
