@@ -26,7 +26,8 @@ const CovidBingo = [
   "Mask sit down",
   "Googles",
   "Damn Karen",
-  "Complain about talking with a mask on"
+  "Complain about talking with a mask on",
+  "Sports team mask"
 ];
 const defaultUserData = {
   array: CovidBingo,
