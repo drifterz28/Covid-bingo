@@ -23,11 +23,13 @@ const CovidBingo = [
   "Baby Mask",
   "Staff with out mask",
   "Remove Mask to cough or sneeze",
-  "Mask sit down",
-  "Googles",
-  "Damn Karen",
+  "Damn Karen!",
   "Complain about talking with a mask on",
-  "Sports team mask"
+  "Sports team mask",
+  "Mask sit down protest",
+  "Goggles",
+  "Complain about talking with a mask on",
+  "Hazmat suit",
 ];
 
 const defaultUserData = {
